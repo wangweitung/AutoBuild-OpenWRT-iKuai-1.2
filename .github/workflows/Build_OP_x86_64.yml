@@ -14,7 +14,7 @@ name: Build_x86_64
 
 on:
   schedule:
-    - cron: 13 */1 * * *
+    - cron: '25 2 * * *'
 
 jobs:
   build:
