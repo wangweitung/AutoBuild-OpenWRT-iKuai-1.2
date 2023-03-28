@@ -12,7 +12,7 @@ on:
   repository_dispatch:
   workflow_dispatch:
   schedule:
-    - cron: "7 */1 * * *"
+    - cron: 10 */1 * * *
 
 jobs:
   build:
