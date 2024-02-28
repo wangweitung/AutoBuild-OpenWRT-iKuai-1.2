@@ -88,6 +88,9 @@ jobs:
         ./scripts/feeds update -a
         ./scripts/feeds install -a
         ./scripts/feeds install -a
+    # 以下为临时修改以测试编译。
+        rm -rf feeds/packages/lang/golang
+        git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
 
     #- name: Import external feeds - passwall
     #  working-directory: ./openwrt
