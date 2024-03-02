@@ -17,3 +17,7 @@ luci-app-upnp
 luci-app-vlmcsd
 
 luci-app-zerotier
+
+管理ip
+
+192.168.5.1
