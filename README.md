@@ -3,6 +3,7 @@
 
 
 安装的插件
+luci-app-adguardhome
 
 luci-app-filetransfer
 
@@ -11,6 +12,8 @@ luci-app-firewall
 luci-app-nlbwmon
 
 luci-app-passwall
+
+luci-app-serverchan
 
 luci-app-upnp
 
